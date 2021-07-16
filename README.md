@@ -28,7 +28,6 @@ https://niceman.tistory.com/155
 
 #
 　  
-　  
 2.
 
 OCR.py 설치할것들
