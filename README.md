@@ -14,6 +14,8 @@ https://all-share-source-code.tistory.com/15
 
 ## 사용법(수동 설치 방법)
 
+1.
+
 다운 받은곳 안에 '오픈 소스 설치파일' tesseract-ocr-w64-setup-v5.0.0-alpha.20200328.exe 설치 진행 해줍니다.
 
 참고 : tesseract 설치 방법
@@ -23,6 +25,10 @@ https://junyoung-jamong.github.io/computer/vision,/ocr/2019/01/30/Python%EC%97%9
 https://m.blog.naver.com/samsjang/220694855018
 
 https://niceman.tistory.com/155
+
+#
+
+2.
 
 OCR.py 설치할것들
 
@@ -54,6 +60,10 @@ pip install boto3
 
 pip install opencv-python
 
+#
+
+3.
+
 aws_OCR.js 설치할것들
 
 sudo npm install -g @aws-amplify/cli
@@ -63,6 +73,8 @@ amplify configure
 amplify init
 
 amplify push
+
+#
 
 4-1.aws_OCR.js 먼저 실행후 OCR.py 실행
 
