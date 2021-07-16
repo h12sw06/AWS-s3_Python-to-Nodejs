@@ -7,7 +7,6 @@
 3.자동설치 프로그램 만들었습니다.('0.사용법' 참조)  
 　  
 　  
-***
 https://all-share-source-code.tistory.com/15
 #### 궁금한점 있으면 사이트 댓글 주세요
 
