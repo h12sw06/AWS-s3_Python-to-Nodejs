@@ -14,7 +14,6 @@ https://all-share-source-code.tistory.com/15
 
 ## 사용법(수동 설치 방법)
 　  
-　  
 1.
 
 다운 받은곳 안에 '오픈 소스 설치파일' tesseract-ocr-w64-setup-v5.0.0-alpha.20200328.exe 설치 진행 해줍니다.
