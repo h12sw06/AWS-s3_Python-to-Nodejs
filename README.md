@@ -32,13 +32,13 @@ https://niceman.tistory.com/155
 
 OCR.py 설치할것들
 
-python.exe -m pip install --upgrade pip --user
+python.exe -m pip install --upgrade pip --user --no-warn-script-location
 
 참고 : AWS(s3) No module named httpsession 문제 발생시
 
 https://jojoldu.tistory.com/426
 
-pip install awscli --user --force-reinstall --upgrade --ignore-installed
+pip install awscli --user --force-reinstall --upgrade --ignore-installed --no-warn-script-location
 
 pip install botocore
 
@@ -53,8 +53,6 @@ https://tiboy.tistory.com/603
 numpy 설치 파일들
 
 https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
-
-pip install pyenchant
 
 pip install boto3
 
