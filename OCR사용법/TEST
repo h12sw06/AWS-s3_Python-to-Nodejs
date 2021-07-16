@@ -1,0 +1,13 @@
+::.bat 기본 세팅 값
+  @echo off
+  @chcp 65001
+  set mypath=%cd%
+  cls
+
+start explorer.exe shell:startup
+
+::python 자동설치
+  start powershell -NoExit "%mypath%\3.PYTHON자동설치.bat - 바로 가기.lnk"
+
+::node 자동설치
+  start powershell -NoExit "%mypath%\2.NODE자동설치.bat - 바로 가기.lnk"

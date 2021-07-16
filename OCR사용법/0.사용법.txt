@@ -1,0 +1,15 @@
+1. '바탕화면 -> OCR -> OCR사용법' 폴더열기
+2. 주소창클릭후 경로 복사 [ 예 : "C:\Users\USER\Desktop\OCR\OCR사용법" ]
+3. 관리자권한으로 cmd 실행
+4. 복사한 경로 이동 [ 예 : cd "C:\Users\USER\Desktop\OCR\OCR사용법" ]
+5. '1.자동설치.bat' 엔터
+6. 설치 진행(각각 설치 방법 참고자료 나옴)
+ 「참고 : 1. 설치 되어 있는 거는 중복해서 설치할 필요 없음(제어판에서 확인 바람)
+           2. Node.js 설치할때 "Automatically install the necessary tools...." 라고 하는 문구는 절대 체크해제」
+
+7. 노드 amplify configure 설정(해당 내용과 일치하게 등록)
+region:  ap-northeast-2
+user name : IAM사용자 ID
+accessKeyId : 액세스 ID
+secretAccessKey : 비밀 엑세스 키
+Profile Name :  (default)
