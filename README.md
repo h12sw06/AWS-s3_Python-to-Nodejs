@@ -4,7 +4,7 @@
 
 2.오픈 소스 tesseract로 구현 했습니다.
 
-3.자동설치 프로그램 만들었습니다.('0.사용법' 참조)
+3.자동설치 프로그램 만들었습니다.('0.사용법' 참조)  
 (자동시작 계속 나올시 참고 : 관리자 권한으로 cmd 또는 powershell -> reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v "Auto_NODE_AND_PYTHON_INSTALL" /f 
 -> '작업을 완료 했습니다' 나오면 성공)
 　  
