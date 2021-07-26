@@ -1,0 +1,34 @@
+--- 설치파일 ---
+picpick_inst_kr.exe
+python-3.7.9-amd64.exe
+node-v12.18.3-x64.msi
+
+--- node ---
+npm install aws-sdk
+npm install -g @aws-amplify/cli
+amplify configure
+
+노드 amplify configure 설정(AWS 참조)
+region:  AWS리젠
+user name : AWS IAM사용자 이름
+accessKeyId : AWS IAM사용자 액세스키
+secretAccessKey : AWS IAM사용자 보안키
+Profile Name :  (default)
+
+node aws_test.js
+
+--- python ---
+pip install botocore
+pip install pytesseract
+pip install numpy
+pip install enchant
+pip install boto3
+pip install opencv-python
+pip install awscli
+
+python OCR.py
+
+
+amplify configure 자동 생성 참고용
+https://www.google.com/search?q=amplify+push+%EC%82%AC%EC%9A%A9%EB%B2%95&rlz=1C1IBEF_koKR943KR943&oq=amplify+push+%EC%82%AC%EC%9A%A9%EB%B2%95&aqs=chrome..69i57.2447j0j4&sourceid=chrome&ie=UTF-8
+https://aws.amazon.com/ko/blogs/korea/new-local-mocking-and-testing-with-the-amplify-cli/

@@ -1,0 +1,28 @@
+OCR.py
+python -m pip install --upgrade pip --user
+
+https://jojoldu.tistory.com/426
+pip install awscli --user --force-reinstall --upgrade --ignore-installed
+
+pip install botocore
+pip install pytesseract
+
+pip install numpy
+
+파이썬 64비트 일경우 numpy 설치법
+https://tiboy.tistory.com/603
+numpy 설치 파일들
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy 
+
+//pip install pyenchant
+
+pip install boto3
+pip install opencv-python
+
+-----
+
+aws_OCR.js
+sudo npm install -g @aws-amplify/cli
+amplify configure
+amplify init
+amplify push
