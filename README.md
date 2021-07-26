@@ -10,6 +10,7 @@
 reg delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v "Auto_NODE_AND_PYTHON_INSTALL" /f  
 -> '작업을 완료 했습니다' 나오면 성공)
 　  
+　  
    
 #### 궁금한점 있으면 사이트 댓글 주세요
 https://all-share-source-code.tistory.com/15
